@@ -1,0 +1,20 @@
+Please find below the necessary instructions regarding the XML files and code provided:
+
+XML Files:
+All XML files containing the requested changes are located in the "XML Files" folder.
+
+Code:
+The code has been attached for your reference.
+
+Appsettings File:
+You can modify the connection string and file path in the "appsettings" file as needed.
+
+Execution:
+Execute the executable (exe) file from the following path: "Code\IRAS_SmartHR_Integration_Console_App\bin\Debug\net6.0\IRAS_SmartHR_Integration" exe.
+
+Database Configuration:
+In the database, please ensure that the 'Status' field in the "payroll_summary_sng_head" table is set to 'Generate XML' using the following SQL query:
+--update [dbo].[payroll_summary_sng_head] set [Status]='Generate XML'
+
+
+Please follow these instructions to ensure smooth execution and integration.
